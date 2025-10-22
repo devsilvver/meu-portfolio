@@ -151,7 +151,7 @@ const Contact = () => (
                 <div className="social-links">
                    <a href="https://www.linkedin.com/in/guilherme-silvestrini-782226233/" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                    <a href="https://github.com/devsilvver" className="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                   <a href="mailto:guilhermesilvestrini1@gmail.com" className="social-link" aria-label="Email"><i className="fas fa-envelope"></i></a>
+                   <a href="mailto:contatosilvestrini@gmail.com" className="social-link" aria-label="Email"><i className="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
