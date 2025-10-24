@@ -24,7 +24,7 @@ const projectsData = [
     description: 'Site completo para uma empresa de venda de móveis, apresentando produtos, categorias e carrinho de compras.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://venda-de-moveis.netlify.app/',
-    imageText: 'Venda de móveis'
+    imageText: 'Site de vendas'
   },
 ];
 
