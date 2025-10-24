@@ -6,13 +6,6 @@ import { createRoot } from 'react-dom/client';
 // Para a imagem, você pode usar um link de um serviço como Imgur ou deixar o nome do projeto.
 const projectsData = [
   {
-    title: 'Chat com tradução em tempo real',
-    description: 'Um chat em tempo real para quebra da barreira de idiomas.',
-    tech: ['React', 'Next.js', 'JavaScript', 'API', 'CSS3', 'Firebase', 'Banco de Dados', 'Vite'],
-    liveUrl: 'https://chat-universal.netlify.app/',
-    imageText: 'Universal Chat'
-  },
-  {
     title: 'Sistema de Gerenciamento',
     description: 'Dashboard administrativo para gerenciamento de chamados para controle/uso pessoal.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
