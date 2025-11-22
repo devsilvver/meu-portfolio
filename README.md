@@ -9,7 +9,7 @@
 ### 📸 Demonstração
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x600?text=Print+do+Portfolio+Aqui" width="100%" alt="Portfolio Screenshot" />
+  <img src="https://imgur.com/wEnzGe7.png" width="100%" alt="Portfolio Screenshot" />
 </div>
 
 ---
