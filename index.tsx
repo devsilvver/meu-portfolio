@@ -6,6 +6,13 @@ import { createRoot } from 'react-dom/client';
 // Para a imagem, você pode usar um link de um serviço como Imgur ou deixar o nome do projeto.
 const projectsData = [
   {
+    title: 'Brasil + Coins Store',
+    description: 'Loja virtual para comprar coins, feita para o servidor Brasil +.',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
+    liveUrl: 'https://brasil-mais-server.store',
+    imageText: 'Brasil + Coins Store'
+  },
+  {
     title: 'Sistema de Gerenciamento',
     description: 'Dashboard administrativo para gerenciamento de chamados para controle/uso pessoal.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
