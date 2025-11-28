@@ -86,7 +86,6 @@ const About = () => (
     </section>
 );
 
-// FIX: Define interfaces for project data and component props to ensure type safety and fix type inference issues with the 'key' prop.
 interface Project {
   title: string;
   description: string;
@@ -97,7 +96,7 @@ interface Project {
 
 interface ProjectCardProps {
   project: Project;
-  key?: number; // Add key prop to the interface
+  key?: number; 
 }
 
 const ProjectCard = ({ project }: ProjectCardProps) => (
