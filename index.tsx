@@ -106,6 +106,7 @@ interface Project {
   tech: string[];
   liveUrl: string;
   imageText: string;
+  imageUrl?: string;
 }
 
 interface ProjectCardProps {
