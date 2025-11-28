@@ -10,28 +10,32 @@ const projectsData = [
     description: 'Loja virtual para comprar coins, feita para o servidor Brasil +.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://brasil-mais-server.store',
-    imageText: 'Brasil + Coins Store'
+    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
+    imageText?: 'Brasil + Coins Store'
   },
   {
     title: 'Sistema de Gerenciamento',
     description: 'Dashboard administrativo para gerenciamento de chamados para controle/uso pessoal.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://meucontrolepessoal.netlify.app/',
-    imageText: 'Controle Pessoal'
+    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
+    imageText?: 'Controle Pessoal'
   },
   {
     title: 'Landing Page para uma Advogada',
     description: 'Site completo para uma Advogada, apresentando serviços, feedback e depoimentos.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://lading-page-advocacia.netlify.app/',
-    imageText: 'Landing Page Advocacia'
+    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
+    imageText?: 'Landing Page Advocacia'
   },
   {
     title: 'Website para venda de móveis',
     description: 'Site completo para uma empresa de venda de móveis, apresentando produtos, categorias e carrinho de compras.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://venda-de-moveis.netlify.app/',
-    imageText: 'Site de vendas'
+    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
+    imageText?: 'Site de vendas'
   },
 ];
 
