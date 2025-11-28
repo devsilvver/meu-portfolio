@@ -90,7 +90,10 @@ const About = () => (
                 <li className="skill-item">Design Responsivo</li>
                 <li className="skill-item">Firebase</li>
                 <li className="skill-item">UX/UI Design</li>
-                <li className="skill-item">Banco de Dados</li>
+                <li className="skill-item">Scripts</li>
+                <li className="skill-item">Automação</li>
+                <li className="skill-item">Servidores de dados</li>
+                <li className="skill-item">Backend</li>
             </ul>
         </div>
       </div>
