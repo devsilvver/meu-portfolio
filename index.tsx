@@ -10,32 +10,32 @@ const projectsData = [
     description: 'Loja virtual para comprar coins, feita para o servidor Brasil +.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://brasil-mais-server.store',
-    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
-    imageText?: 'Brasil + Coins Store'
+    imageUrl: 'https://i.imgur.com/dPkAVPd.png', // Sem '?' e com vírgula no fim
+    imageText: 'Brasil + Coins Store'
   },
   {
     title: 'Sistema de Gerenciamento',
     description: 'Dashboard administrativo para gerenciamento de chamados para controle/uso pessoal.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://meucontrolepessoal.netlify.app/',
-    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
-    imageText?: 'Controle Pessoal'
+    imageUrl: 'https://i.imgur.com/dPkAVPd.png',
+    imageText: 'Controle Pessoal'
   },
   {
     title: 'Landing Page para uma Advogada',
     description: 'Site completo para uma Advogada, apresentando serviços, feedback e depoimentos.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://lading-page-advocacia.netlify.app/',
-    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
-    imageText?: 'Landing Page Advocacia'
+    imageUrl: 'https://i.imgur.com/dPkAVPd.png',
+    imageText: 'Landing Page Advocacia'
   },
   {
     title: 'Website para venda de móveis',
     description: 'Site completo para uma empresa de venda de móveis, apresentando produtos, categorias e carrinho de compras.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://venda-de-moveis.netlify.app/',
-    imagemUrl?: 'https://i.imgur.com/dPkAVPd.png'
-    imageText?: 'Site de vendas'
+    imageUrl: 'https://i.imgur.com/dPkAVPd.png',
+    imageText: 'Site de vendas'
   },
 ];
 
@@ -112,7 +112,18 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => (
   <div className="project-card">
-    <div className="project-image">{project.imageText}</div>
+    <div className="project-image">
+      {/* Verifica se existe uma imageUrl. Se sim, mostra a imagem. Senão, mostra o texto. */}
+      {project.imageUrl ? (
+        <img 
+          src={project.imageUrl} 
+          alt={project.title} 
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+        />
+      ) : (
+        project.imageText
+      )}
+    </div>
     <div className="project-content">
       <h3>{project.title}</h3>
       <p>{project.description}</p>
