@@ -18,7 +18,7 @@ const projectsData = [
     description: 'Dashboard administrativo para gerenciamento de chamados para controle/uso pessoal.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://meucontrolepessoal.netlify.app/',
-    imageUrl: 'https://i.imgur.com/dPkAVPd.png',
+    imageUrl: 'https://i.imgur.com/N8IYTxu.png',
     imageText: 'Controle Pessoal'
   },
   {
@@ -26,7 +26,7 @@ const projectsData = [
     description: 'Site completo para uma Advogada, apresentando serviços, feedback e depoimentos.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://lading-page-advocacia.netlify.app/',
-    imageUrl: 'https://i.imgur.com/dPkAVPd.png',
+    imageUrl: 'https://i.imgur.com/oBl24XO.png',
     imageText: 'Landing Page Advocacia'
   },
   {
@@ -34,7 +34,7 @@ const projectsData = [
     description: 'Site completo para uma empresa de venda de móveis, apresentando produtos, categorias e carrinho de compras.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'Typescript', 'React', 'Vite'],
     liveUrl: 'https://venda-de-moveis.netlify.app/',
-    imageUrl: 'https://i.imgur.com/dPkAVPd.png',
+    imageUrl: 'https://i.imgur.com/47UBQeF.png',
     imageText: 'Site de vendas'
   },
 ];
